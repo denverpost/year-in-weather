@@ -22,11 +22,11 @@ Heating degree day (HDD) is a measurement designed to reflect the demand for ene
 ** DPNP - Departure from normal monthly precipitation.
 ** TSNW - Total snow fall
 ** DT00 - Number days with minimum temperature less than or equal to 0.0 F
-* DP05 - Number of days with greater than or equal to 0.5 inch of precipitation
-* DPNT - Departure from normal monthly temperature.
+** DP05 - Number of days with greater than or equal to 0.5 inch of precipitation
+** DPNT - Departure from normal monthly temperature.
 * CLDD - Cooling degree days
-* DSNW - Number days with snow depth > 1 inch.
-* MMXT - Monthly Mean maximum temperature
+** DSNW - Number days with snow depth > 1 inch.
+** MMXT - Monthly Mean maximum temperature
 MMXP - Monthly mean maximum temperature of evaporation pan water.
-* MNTM - Monthly mean temperature
+** MNTM - Monthly mean temperature
 MX3299 - Monthly mean maximum soil temperature (degrees F)(cover: bare ground
