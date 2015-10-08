@@ -1,32 +1,32 @@
 Okay so this is the data we can get from NOAA, let's delete the ones we're not interested in.
 
-** EMXP - Extreme maximum daily precipitation
-** MMNT - Monthly Mean minimum temperature (i.e. average low temp)
+*** EMXP - Extreme maximum daily precipitation
+*** MMNT - Monthly Mean minimum temperature (i.e. average low temp)
 HX3299 - Highest maximum soil temperature for the month (degrees F)(cover: bare ground
-** EMXT - Extreme maximum daily temperature (i.e. the hottest it got in the time period?)
+*** EMXT - Extreme maximum daily temperature (i.e. the hottest it got in the time period?)
 MMNP - Monthly mean minimum temperature of evaporation pan water.
-** DT90 - Number days with maximum temperature greater than or equal 90.0 F
+*** DT90 - Number days with maximum temperature greater than or equal 90.0 F
 ** DP10 - Number of days with greater than or equal to 1.0 inch of precipitation
 TEVP - Total monthly evaporation.
-** TPCP - Total precipitation
-** EMNT - Extreme minimum daily temperature (i.e. the coldest it got in the time period?)
+*** TPCP - Total precipitation
+*** EMNT - Extreme minimum daily temperature (i.e. the coldest it got in the time period?)
 ** DT32 - Number days with minimum temperature less than or equal to 32.0 F
-* DX32 - Number days with maximum temperature less than or equal to 32.0 F
-** MXSD - Maximum snow depth
+** DX32 - Number days with maximum temperature less than or equal to 32.0 F
+*** MXSD - Maximum snow depth
 *TWND - Total monthly wind movement (in miles) over evaporation pan.
 LX3299 - Lowest maximum soil temperature for the month (degrees F)(cover: bare ground
 * HTDD - Heating degree days
 Heating degree day (HDD) is a measurement designed to reflect the demand for energy needed to heat a building. It is derived from measurements of outside air temperature. The heating requirements for a given structure at a specific location are considered to be directly proportional to the number of HDD at that location. A similar measurement, cooling degree day (CDD), reflects the amount of energy used to cool a home or business.
 
-** DP01 - Number of days with greater than or equal to 0.1 inch of precipitation
-** DPNP - Departure from normal monthly precipitation.
-** TSNW - Total snow fall
-** DT00 - Number days with minimum temperature less than or equal to 0.0 F
+*** DP01 - Number of days with greater than or equal to 0.1 inch of precipitation
+*** DPNP - Departure from normal monthly precipitation.
+*** TSNW - Total snow fall
+*** DT00 - Number days with minimum temperature less than or equal to 0.0 F
 ** DP05 - Number of days with greater than or equal to 0.5 inch of precipitation
-** DPNT - Departure from normal monthly temperature.
+*** DPNT - Departure from normal monthly temperature.
 * CLDD - Cooling degree days
-** DSNW - Number days with snow depth > 1 inch.
-** MMXT - Monthly Mean maximum temperature
+*** DSNW - Number days with snow depth > 1 inch.
+*** MMXT - Monthly Mean maximum temperature
 MMXP - Monthly mean maximum temperature of evaporation pan water.
-** MNTM - Monthly mean temperature
+*** MNTM - Monthly mean temperature
 MX3299 - Monthly mean maximum soil temperature (degrees F)(cover: bare ground
