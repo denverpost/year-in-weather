@@ -1,2 +1,2 @@
-# The Year In Weather
-Our current and future year in weather projects
+# The Year / Month In Weather
+Our current and future year / month in weather projects
