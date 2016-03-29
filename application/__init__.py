@@ -25,7 +25,7 @@ pages = FlatPages(app)
 with app.app_context():
     app.url_root = '/'
     app.page = page
-    app.sitename = ''
+    app.sitename = 'Colorado Weather Report'
 
 import application.flatpage
 import application.weather

@@ -16,7 +16,7 @@
     <meta name="Copyright" content="Copyright &copy; The Denver Post." />
 
     <meta name="description" content="{{response.app.page.description}}">
-    <meta name="news_keywords" content="politics,colorado,legislature">
+    <meta name="news_keywords" content="weather,colorado,forecast">
 
     <meta name="twitter:card" value="summary" />
     <meta name="twitter:url" value="{{response.app.page.url}}" />
@@ -187,8 +187,8 @@
         <div id="breadcrumbs">
             {% block breadcrumbs %}
             <a href="http://www.denverpost.com/">Home</a>
-            &rsaquo; <a href="http://www.denverpost.com/politics">Politics</a>
-            &rsaquo; <a href="http://www.denverpost.com/legislature">Legislature</a>
+            &rsaquo; <a href="http://www.denverpost.com/weather">Weather</a>
+            &rsaquo; <a href="http://www.denverpost.com/weathernews">Weather News</a>
             {% endblock breadcrumbs %}
         </div>
 
@@ -206,9 +206,9 @@
                 <div class="fb-like" data-href="{{response.app.page.url}}" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
                 {% endif %}
 
-                <h3>Colorado legislature news</h3>
-                <script src="http://extras.denverpost.com/cache/politics_legislature.js"></script>
-                <noscript><p><a href="http://www.denverpost.com/legislature">Recent Colorado legislature headlines</a></p></noscript>
+                <h3>Colorado weather news</h3>
+                <script src="http://extras.denverpost.com/cache/weathernews.js"></script>
+                <noscript><p><a href="http://www.denverpost.com/weathernews">Recent Colorado weather headlines</a></p></noscript>
 
                 <div id='dfp-20' class='ad'>
                     <script>
@@ -234,14 +234,14 @@
 
     <section id="content-footer">
         <hr noshade>
-        <p>The latest in <a href="http://www.denverpost.com/legislature">Colorado state legislature news</a>: <script src="http://extras.denverpost.com/cache/politics_legislature_1.js"></script></p>
+        <p>The latest in <a href="http://www.denverpost.com/weathernews">Colorado weather news</a>: <script src="http://extras.denverpost.com/cache/weathernews_1.js"></script></p>
         {% include 'inc_nav.html' %}
     </section>
 
     <div id="dfmFooter" style="border-top:1px solid #ddd;"><!--CORPORATE FOOTER--></div>
     <script src="http://local.denverpost.com/common/dfm/dfm-nav/dfm-nav-core.js"></script>
     <script>
-        window.setTimeout(function(){dfmNav.initParams("mode|article", "site|denverpost", "pageTitle|Legislature", "leaderboard|true", "thirdParty|false")},5);
+        window.setTimeout(function(){dfmNav.initParams("mode|article", "site|denverpost", "pageTitle|Weather Report", "leaderboard|true", "thirdParty|false")},5);
     </script>
 
     <footer>
@@ -249,7 +249,7 @@
         // VENDOR: CHARTBEAT
         _sf_async_config.uid = 2671;
         _sf_async_config.domain = 'denverpost.com';
-        _sf_async_config.sections = 'politics,legislature,data,';
+        _sf_async_config.sections = 'weather,weathernews,data,';
         _sf_async_config.useCanonical = true;
         (function(){
             function loadChartbeat() {
