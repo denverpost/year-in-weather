@@ -29,6 +29,7 @@ def index():
     app.page['url'] = build_url(app, request)
 
     response = {
+        'app': app
     }
     return render_template('home.html', response=response)
 
