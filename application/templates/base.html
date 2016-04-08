@@ -276,9 +276,12 @@
     <script>
     if ( iframe === 1 )
     {
-        // *** Loop through all the relative links and add target="_parent"
-        // as well as the host domain, http://extras.denverpost.com/app/bill-tracker/
-        // to each href.
+        // Loop through all the links and add target="_parent"
+        $("a").each(function(index) {
+            $(this).attr('target', '_parent');
+        });
+        // Remove the logo and footer
+        $('footer, #dfmHeader, #dfmFooter, #breadcrumbs').remove();
     }
     </script>
 </body>
